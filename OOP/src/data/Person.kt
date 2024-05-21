@@ -1,6 +1,12 @@
 package data
 
+// Kelas (class) adalah blue print atau template untuk membuat objek.
+// Kelas mendefinisikan karakteristik dan perilaku yang umum bagi semua objek yang dibuat darinya.
+
 class Person {
+//  Properti (property) adalah variabel yang dideklarasikan di dalam kelas.
+//  Properti mewakili atribut atau karakteristik dari objek.
+
     var firstName: String = ""
     var middleName: String? = null
     private var lastName: String = ""

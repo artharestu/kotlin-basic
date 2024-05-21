@@ -2,6 +2,10 @@ package app
 
 import data.Person
 
+// Objek (object) adalah instansiasi dari kelas.
+// Objek memiliki nilai spesifik untuk atribut (properti) yang didefinisikan di kelas
+// dan dapat menjalankan fungsi/metode yang ada di kelas.
+
 fun main() {
     val eko = Person()
     eko.firstName = "Eko"
