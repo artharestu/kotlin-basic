@@ -4,13 +4,14 @@ package data
 // Kelas mendefinisikan karakteristik dan perilaku yang umum bagi semua objek yang dibuat darinya.
 
 class Person {
-//  Properti (property) adalah variabel yang dideklarasikan di dalam kelas.
-//  Properti mewakili atribut atau karakteristik dari objek.
-
+    //  Properti (property) adalah variabel yang dideklarasikan di dalam kelas.
+    //  Properti mewakili atribut atau karakteristik dari objek.
     var firstName: String = ""
     var middleName: String? = null
     private var lastName: String = ""
 
+    // Function overloading adalah fitur dalam Kotlin yang memungkinkan Anda untuk mendefinisikan
+    // beberapa fungsi dengan nama yang sama, tetapi dengan parameter atau tipe return yang berbeda.
     fun sayHello(name: String) {
         this.firstName = name
         println("Hello $name, My Name is ${this.firstName}")
